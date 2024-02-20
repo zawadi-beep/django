@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homepage</title>
+    {% load static %}
+    <style>
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            background-color: #00868b;
+            line-height: 80px;
+            font-size: 40px;
+        }
+        h1:hover{
+            background-color: rgba(0, 134, 139, 0.49);
+        }
+    </style>
+    <link rel="icon" href="{% static 'img/home.png' %}">
+</head>
+<body>
+<h1>Home Page</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores ducimus porro quod rerum! Dolorum excepturi expedita minima nostrum quaerat repellendus suscipit. Aliquid aperiam at consequuntur dolore ea numquam totam?</p>
+
+<img src="{% static 'img/cat.jpeg' %}" alt="">
+<img src="{% static 'img/cat2.jpeg' %}" alt="">
+<img src="{% static 'img/Untitled.jpeg2' %}" alt="">
+<img src="{% static 'img/myprofile.jpeg' %}" alt="">
+<img src="{% static 'img/Untitled.jpeg' %}" alt="">
+<img src="{% static 'img/Untitled.jpeg1' %}" alt="">
+<br><br><br>
+
+
+<button>homepage</button>
+
+</body>
+</html>
